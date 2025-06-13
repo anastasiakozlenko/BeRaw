@@ -1,0 +1,55 @@
+.welcome-container {
+  background-image: url("../assets/background.jpg"); /* Замінити на свій фон */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.welcome-title {
+  font-size: 48px;
+  margin-bottom: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+.welcome-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 40px;
+  font-size: 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.white-btn {
+  background-color: white;
+  color: black;
+}
+
+.white-btn:hover {
+  background-color: #ddd;
+}
+
+.dark-btn {
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.dark-btn:hover {
+  background-color: #333;
+}
